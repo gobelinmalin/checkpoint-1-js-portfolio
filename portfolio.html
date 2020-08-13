@@ -25,7 +25,7 @@
         <h1>FullStack Developer</h1>
         <p>I code beautifully simple things, and I love what I do.</p>
         <figure class="avatar">
-          <img src="image/avatar.svg" alt="avatar" />
+          <img id="imageAvatar" src="image/avatar-bis.png" alt="avatar" />
         </figure>
         <figure class="desktop">
           <img src="image/desktop.svg" alt="desktop" />
@@ -33,39 +33,52 @@
       </section>
 
       <section class="presentation">
-        <div class="description">
-          <h1>Hi, I’m Matt. Nice to meet you.</h1>
+        <div class="description purple">
+          <h1>Hi, I’m <span id="name">Matt</span>. Nice to meet you.</h1>
           <p>Since beginning my journey as a freelance developer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.</p>
-          <button onclick="handleBackgroundColor()">Enter color</button>
+          <!-- <button id="modifColorText" class="white">Modify text and color</button> -->
         </div>
         <div class="skills">
           <div class="column">
             <figure class="skill">
               <img src="image/frontend.svg" alt="frontend" />
-              <h1>Front-end Developer</h1>
-              <p>I love bringing ideas to life.</p>
-              <h2>Languages I speak:</h2>
-              <p>HTML, CSS</p>
-              <h2>Dev Tools:</h2>
+              <h1>Back-end Developer</h1>
+              <p>I like to code things from scratch.</p>
+              <h2 class="purpleText">Languages I speak:</h2>
+              <p>MySql</p>
+              <h2 class="purpleText">Dev Tools:</h2>
               <ul>
-                <li>VScode</li>
-                <li>GitHub</li>
+                <li class="devToolBack">VScode</li>
               </ul>
+              <!-- <form id="form">
+                <input
+                  type="text"
+                  name="tool"
+                  placeholder="Add your dev tools"
+                  id="toolInput"
+                  value=""
+                />
+
+                <input class="button 
+                button-purple" type="submit" value="Add" />
+              </form> -->
             </figure>
           </div>
           <div class="column">
             <figure class="skill">
               <img src="image/frontend.svg" alt="frontend" />
-              <h1>Back-end Developer</h1>
-              <p>I like to code things from scratch.</p>
-              <h2>Languages I speak:</h2>
-              <p>MySql</p>
-              <h2>Dev Tools:</h2>
+              <h1>Front-end Developer</h1>
+              <p>I love bringing ideas to life.</p>
+              <h2 class="purpleText">Languages I speak:</h2>
+              <p>HTML, CSS</p>
+              <h2 class="purpleText">Dev Tools:</h2>
               <ul>
-                <li>VScode</li>
-                <li>Postman</li>
-                <li>Workbench</li>
+                <li class="devToolFront">You can modify</li>
+                <li class="devToolFront">You can modify</li>
+                <li class="devToolFront">You can modify</li>
               </ul>
+              <!-- <button class="devTool 
+              button-purple">Modify</button> -->
             </figure>
           </div>
         </div>
@@ -78,22 +91,22 @@
         </div>
         <div class="contents">
           <div class="box">
-            <img class="logo-entreprise" src="https://mattfarley.ca/img/logos/kybercore.svg" alt="logo-entreprise" />
+            <img src="https://mattfarley.ca/img/logos/kybercore.svg" alt="logo-entreprise" />
             <p>Next level plug and play chassis systems for custom do-it-yourself lightsaber builds.</p>
             <a disabled >In development</a>
           </div>
           <div class="box">
-            <img class="logo-entreprise" src="https://mattfarley.ca/img/logos/basin.svg" alt="logo-entreprise" />
+            <img src="https://mattfarley.ca/img/logos/basin.svg" alt="logo-entreprise" />
             <p>A powerful, easy-to-configure form backend for designers and developers. No coding required.</p>
             <a href="www.usebasin.com">www.usebasin.com</a>
           </div>
           <div class="box">
-            <img class="logo-entreprise" src="https://mattfarley.ca/img/logos/ylbuilders.svg" alt="logo-entreprise" />
+            <img src="https://mattfarley.ca/img/logos/ylbuilders.svg" alt="logo-entreprise" />
             <p>Beautifully simple websites for independent distributors of Young Living Essential Oils.</p>
             <a href="www.ylbuilders.com">www.ylbuilders.com</a>
           </div>
           <div class="box">
-            <img class="logo-entreprise" src="https://mattfarley.ca/img/logos/dovetail.svg" alt="logo-entreprise" />
+            <img src="https://mattfarley.ca/img/logos/dovetail.svg" alt="logo-entreprise" />
             <p>A space and member management solution for coworking communities both big and small.</p>
             <a disabled >Shutdown in 2017</a>
           </div>
@@ -101,7 +114,7 @@
       </section>
 
       <section class="presentation">
-        <div class="description">
+        <div class="description purple">
           <img src="image/logo-white.svg" alt='logo-white' />
           <h1>Living, learning, & leveling up one day at a time.</h1>
         </div>
